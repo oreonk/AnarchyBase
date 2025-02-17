@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MPCore">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ded codit/server2/plugins/MPCore.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

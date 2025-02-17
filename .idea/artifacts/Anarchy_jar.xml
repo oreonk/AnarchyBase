@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Anarchy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Anarchy_jar</output-path>
+    <root id="archive" name="Anarchy.jar">
+      <element id="module-output" name="AnarchyBase" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,45 @@
+main: com.oreonk.Anarchy
+name: Anarchy
+version: 1
+depend: [WorldGuard, Vault, MythicMobs]
+api-version: 1.17
+commands:
+  pr:
+    description: "Основные команды приватов"
+    usage: /pr
+  blind:
+    description: "Ослепить игроков вокруг (для консоли)"
+    usage: /blind
+    permission: Anarchy.admin
+  platform:
+    description: "Построить платформу под игроком (для консоли)"
+    usage: /platform
+    permission: Anarchy.admin
+  test:
+    description: "test"
+    usage: /test
+    permission: Anarchy.admin
+  trap:
+    description: "Построить клетку вокруг близжайшего игрока (для консоли)"
+    usage: /trap
+    permission: Anarchy.admin
+  crafts:
+    description: "Открыть список кастомных крафтов"
+    usage: /crafts
+    permission: Anarchy.admin
+  potion:
+    description: "Выдать зелья"
+    usage: /potion *type* *nick*
+    permission: Anarchy.admin
+  daily:
+    description: "Открыть меню ежедневок"
+    permission: Anarchy.admin
+permissions:
+  Anarchy.pr.admin:
+    description: Перм для основных функций администратора и обхода кд.
+  Anarchy.pr.admin.util:
+    description: Перм для ютил команд (в основном в предметах).
+  Anachy.pr.player:
+    description: Перм для основных функций игрока.
+  Anachy.pr.tp:
+    description: Перм для тп к блоку привата с перезарядкой.
